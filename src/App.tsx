@@ -1,4 +1,5 @@
 import './App.css';
+import Card from './components/Card';
 import Illustration from './images/illustration.svg';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         pellentesque dignissim ultrices.
       </div>
       <img src={Illustration} alt="" />
+      <Card />
     </div>
   );
 }
