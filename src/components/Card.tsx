@@ -1,5 +1,11 @@
+import React, { useState } from 'react';
+
 function Card() {
-  return <div>hello</div>;
+  const [title, setTitle] = useState('');
+  const [description, setDescription] = useState('');
+  const [image, setImage] = useState('');
+
+  return <div>{title}</div>;
 }
 
 export default Card;
