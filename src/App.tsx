@@ -1,5 +1,5 @@
 import './App.css';
-import illustration from './images/illustration.svg';
+import Illustration from './images/illustration.svg';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         eleifend sem. Praesent rutrum dictum metus et vestibulum. Etiam
         pellentesque dignissim ultrices.
       </div>
-      <img src={illustration} alt="" />
+      <img src={Illustration} alt="" />
     </div>
   );
 }
