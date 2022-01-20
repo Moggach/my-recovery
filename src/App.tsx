@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="container mx-auto">
       <header className="font-bold">My recovery</header>
-      <div className="font-bold">
+      <div className="">
         Phasellus nec rhoncus turpis, id lacinia nisi. Quisque at turpis et dui
         pretium mattis non iaculis ligula. Fusce vel ligula pretium, blandit
         turpis ut, finibus nunc. Morbi vitae purus euismod, tempus nisi nec,
